@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv"
+      crossorigin="anonymous"
+    />
+
+    <title>Dashboard | Instagram Clone</title>
+  </head>
+  <body>
+    <!-- Header  -->
+    <header class="header">
+      <!-- header-title  -->
+      <div class="header__header-column">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png"
+        />
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon"><i class="fas fa-tv"></i></span>
+        <span class="header__icon"><i class="far fa-paper-plane"></i></span>
+      </div>
+      <!-- header-story list -->
+      <ul class="header__stories">
+        <li class="header__stories-avatars">
+          <a href="uploadstory.html">
+            <img class="g-avatar" src="src/avatar_squirtle.jpg" />
+            <i class="fas fa-plus-circle"></i>
+          </a>
+        </li>
+        <li class="header__avataricons">
+          <a href="pikachustory.html">
+            <img class="g-avatar" src="src/avatar_pikachu.jpg" />
+          </a>
+        </li>
+        <li class="header__avataricons">
+          <a href="eeveestory.html">
+            <img class="g-avatar" src="src/avatar_eevee.jpg" />
+          </a>
+        </li>
+        <li class="header__avataricons">
+          <a href="togepistory.html">
+            <img class="g-avatar" src="src/avatar_togepi.jpg" />
+          </a>
+        </li>
+        <li class="header__header-avatar">
+          <a href="slowpokestory.html">
+            <img class="g-avatar" src="src/avatar_slowpoke.jpg" />
+          </a>
+        </li>
+        <li class="header__header-avatar">
+          <a href="mustory.html">
+            <img class="g-avatar" src="src/avatar_mu.jpg" />
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- main: dashboard  -->
+
+    <main class="dashboard">
+      <ul class="dashboard__contentlist">
+        <!-- content  -->
+        <li class="dashboard__content content">
+          <!-- authorinfo  -->
+          <div class="content__authorwithavatar">
+            <img
+              class="content__avatar g-avatar"
+              src="src/avatar_pikachu.jpg"
+            />
+            <div class="content__author">
+              <span class="content__authorname">Pikachu</span>
+              <span class="content__timestamp">5 min</span>
+            </div>
+          </div>
+
+          <!-- contentmenu  -->
+          <div class="content__contentmenu">
+            <a href="contentmenu.html" class="content__icon"
+              ><i class="fas fa-ellipsis-h"></i
+            ></a>
+          </div>
+
+          <!-- content  -->
+          <div class="content__contentimg">
+            <a href="pikachucontent.html"
+              ><img src="src/image_pikachu.png" class="imgbig"
+            /></a>
+          </div>
+
+          <!-- bottomleft  -->
+          <div class="content__bottomleft">
+            <span class="content__likereply"
+              ><i class="far fa-heart"></i> 2,515</span
+            >
+            <span class="content__likereply"
+              ><i class="far fa-comment-dots"></i> 350</span
+            >
+          </div>
+
+          <!-- bottomright  -->
+          <div class="content__bottomright">
+            <i class="far fa-bookmark"></i>
+          </div>
+        </li>
+        <li class="dashboard__content content">
+          <div class="content__authorwithavatar">
+            <img
+              class="content__avatar g-avatar"
+              src="src/avatar_charizard.jpg"
+            />
+            <div class="content__author">
+              <span class="content__authorname">Charizard</span>
+              <span class="content__timestamp">42 min</span>
+            </div>
+          </div>
+          <div class="content__contentmenu">
+            <a href="contentmenu.html" class="content__icon"
+              ><i class="fas fa-ellipsis-h"></i
+            ></a>
+          </div>
+          <div class="content__contentimg">
+            <a href="charizardcontent.html">
+              <img src="src/image_charizard.jpg" class="imgbig" />
+            </a>
+          </div>
+          <div class="content__bottomleft">
+            <span class="content__likereply"
+              ><i class="far fa-heart"></i> 1,804</span
+            >
+            <span class="content__likereply"
+              ><i class="far fa-comment-dots"></i> 12</span
+            >
+          </div>
+          <div class="content__bottomright">
+            <i class="far fa-bookmark"></i>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <!-- footer nav bar  -->
+    <nav class="nav footer">
+      <ul class="nav_list">
+        <li class="nav__list-item item-bold">
+          <a href="menu.html" class="nav__list-link">
+            <i class="fas fa-bars"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link"
+            ><i class="fas fa-search"></i
+          ></a>
+        </li>
+        <li class="nav__list-item item-backgreen">
+          <a href="addcontent.html" class="nav__list-link"
+            ><i class="fas fa-plus"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="like.html" class="nav__list-link"
+            ><i class="far fa-heart"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="userinfo.html" class="nav__list-link"
+            ><i class="far fa-user"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
